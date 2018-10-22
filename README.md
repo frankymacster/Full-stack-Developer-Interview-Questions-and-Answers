@@ -60,10 +60,10 @@
 * [*Domain-driven design*](https://en.wikipedia.org/wiki/Domain-driven_design)
 * [*Microservices*](https://en.wikipedia.org/wiki/Microservices) are a style of software architecture that involves delivering systems as a set of very small, granular, independent collaborating services. 
   * Pros of *microservices* (The services are easy to replace, Services can be implemented using different programming languages, databases, hardware and software environment, depending on what fits best)
-* *Design patterns*.
+~~* *Design patterns*.
   * **Creational**: [*Builder*](https://refactoring.guru/design-patterns/builder), [*Object Pool*](https://en.wikipedia.org/wiki/Object_pool_pattern), [*Factory Method*](https://refactoring.guru/design-patterns/factory-method), [*Singleton*](https://refactoring.guru/design-patterns/singleton), [*Multiton*](https://en.wikipedia.org/wiki/Multiton_pattern), [*Prototype*](https://refactoring.guru/design-patterns/prototype), [*Abstract Factory*](https://refactoring.guru/design-patterns/abstract-factory)
    * **Structural**: [*Adapter*](https://refactoring.guru/design-patterns/adapter), [*Bridge*](https://refactoring.guru/design-patterns/bridge), [*Composite*](https://refactoring.guru/design-patterns/composite), [*Decorator*](https://refactoring.guru/design-patterns/decorator), [*Facade*](https://refactoring.guru/design-patterns/facade), [*Flyweight*](https://refactoring.guru/design-patterns/flyweight), [*Proxy*](https://refactoring.guru/design-patterns/proxy)
-   * **Behavioral**: [*Chain of Responsibility*](https://refactoring.guru/design-patterns/chain-of-responsibility), [*Command*](https://refactoring.guru/design-patterns/command), [*Interpreter*](https://en.wikipedia.org/wiki/Interpreter_pattern), [*Iterator*](https://refactoring.guru/design-patterns/iterator), [*Mediator*](https://refactoring.guru/design-patterns/mediator), [*Memento*](https://refactoring.guru/design-patterns/memento), [*Observer*](https://refactoring.guru/design-patterns/observer), [*State*](https://refactoring.guru/design-patterns/state), [*Strategy*](https://refactoring.guru/design-patterns/strategy), [*Template Method*](https://refactoring.guru/design-patterns/template-method), [*Visitor*](https://refactoring.guru/design-patterns/visitor)
+   * **Behavioral**: [*Chain of Responsibility*](https://refactoring.guru/design-patterns/chain-of-responsibility), [*Command*](https://refactoring.guru/design-patterns/command), [*Interpreter*](https://en.wikipedia.org/wiki/Interpreter_pattern), [*Iterator*](https://refactoring.guru/design-patterns/iterator), [*Mediator*](https://refactoring.guru/design-patterns/mediator), [*Memento*](https://refactoring.guru/design-patterns/memento), [*Observer*](https://refactoring.guru/design-patterns/observer), [*State*](https://refactoring.guru/design-patterns/state), [*Strategy*](https://refactoring.guru/design-patterns/strategy), [*Template Method*](https://refactoring.guru/design-patterns/template-method), [*Visitor*](https://refactoring.guru/design-patterns/visitor)~~
 * [*Enterprise integration patterns*](https://en.wikipedia.org/wiki/Enterprise_Integration_Patterns), [*SOA patterns*](www.soapatterns.org).
 * [*3-tier architecture*](https://en.wikipedia.org/wiki/Multitier_architecture) (Presentation tier, Application tier, Data tier)
 * *3-layer architecture* (DAO (Repository), Business (Service) layer, Controller)
@@ -72,9 +72,9 @@
 * *Nullipotent operation* (GET method is a safe method (or nullipotent), meaning that calling it produces no side-effects)
 * [*Naked objects*](https://en.wikipedia.org/wiki/Naked_objects), [*Restful objects*](https://en.wikipedia.org/wiki/Restful_Objects).
 * Why do you need *web server* (tomcat, jetty)?
-* [*Inheritance*](https://en.wikipedia.org/wiki/Inheritance_(object-oriented_programming)) vs [*Composition*](https://en.wikipedia.org/wiki/Object_composition) (Inheritance - is-a relationship, whether clients will want to use the subclass type as a superclass type. Composition - has-a or part-of relationship).
+~~* [*Inheritance*](https://en.wikipedia.org/wiki/Inheritance_(object-oriented_programming)) vs [*Composition*](https://en.wikipedia.org/wiki/Object_composition) (Inheritance - is-a relationship, whether clients will want to use the subclass type as a superclass type. Composition - has-a or part-of relationship).~~
 * [*Multiple inheritance (diamond) problem*](https://en.wikipedia.org/wiki/Multiple_inheritance#The_diamond_problem)
-* Advantages of using *modules*. (reuse, decoupling, namespace)
+~~* Advantages of using *modules*. (reuse, decoupling, namespace)~~
 * Drawbacks of not using [*separation of concerns*](https://en.wikipedia.org/wiki/Separation_of_concerns)
   * Adding new features will take an order of magnitude longer
   * Impossible to optimize
@@ -85,10 +85,10 @@
 * [GRASP](https://en.wikipedia.org/wiki/GRASP_(object-oriented_design))
 
 #### [[⬆]](#toc) <a name='concurrency'>Concurrency:</a>
-* What is [*deadlock*](https://en.wikipedia.org/wiki/Deadlock), [*livelock*](https://en.wikipedia.org/wiki/Deadlock#Livelock)? (Deadlock is a situation in which two or more competing actions are each waiting for the other to finish, and thus neither ever does. A livelock is similar to a deadlock, except that the states of the processes involved in the livelock constantly change with regard to one another, none progressing.)
+~~* What is [*deadlock*](https://en.wikipedia.org/wiki/Deadlock), [*livelock*](https://en.wikipedia.org/wiki/Deadlock#Livelock)? (Deadlock is a situation in which two or more competing actions are each waiting for the other to finish, and thus neither ever does. A livelock is similar to a deadlock, except that the states of the processes involved in the livelock constantly change with regard to one another, none progressing.)~~
 * [*Deadlock avoidance*](https://www.geeksforgeeks.org/deadlock-prevention). (prevention, detection, avoidance (Mutex hierarchy), and recovery)
 * What is [*starvation*](https://en.wikipedia.org/wiki/Starvation_(computer_science))? (a problem encountered in concurrent computing where a process is perpetually denied necessary resources to process its work)
-* What is [*race condition*](https://en.wikipedia.org/wiki/Race_condition)? (Behavior of software system where the output is dependent on the sequence or timing of other uncontrollable events)
+~~* What is [*race condition*](https://en.wikipedia.org/wiki/Race_condition)? (Behavior of software system where the output is dependent on the sequence or timing of other uncontrollable events)~~
 * What is [*happens-before*](https://en.wikipedia.org/wiki/Happened-before) relation?
 * What is [*thread contention*](https://stackoverflow.com/questions/1970345/what-is-thread-contention)? (Contention is simply when two threads try to access either the same resource or related resources in such a way that at least one of the contending threads runs more slowly than it would if the other thread(s) were not running). Contention occurs when multiple threads try to acquire a lock at the same time
 * What is a [*thread-safe*](https://en.wikipedia.org/wiki/Thread_safety) function? (Can be safely invoked by multiple threads at the same time)
@@ -114,7 +114,7 @@
 * What is *wait*/*notify*?
 * [*Amdahl's law*](https://en.wikipedia.org/wiki/Amdahl%27s_law)? (Speedup = 1 / (1 - p + p / n))
 * [*Dining philosophers problem*](https://en.wikipedia.org/wiki/Dining_philosophers_problem) (Resource hierarchy (first take lower-indexed fork), arbitrator, communication (dirty/clean forks)).
-* [*Produces/consumer*](https://en.wikipedia.org/wiki/Producer%E2%80%93consumer_problem) problem.
+* [*Producer/consumer*](https://en.wikipedia.org/wiki/Producer%E2%80%93consumer_problem) problem.
 * [*Readers/writers*](https://en.wikipedia.org/wiki/Readers%E2%80%93writers_problem) problem.
 * [*Transactional memory*](https://en.wikipedia.org/wiki/Software_transactional_memory)
 * [*Coroutine*](https://en.wikipedia.org/wiki/Coroutine)
@@ -142,13 +142,13 @@
 * Major specs: JAX-RS, JAX-WS, JMS, JAXB, XSLT, XPATH, JNDI, JMX, JDBC, XML(SAX, DOM, StAX)
 
 #### [[⬆]](#toc) <a name='general'>General Questions:</a>
-* [*Polymorphism*](https://en.wikipedia.org/wiki/Polymorphism_(computer_science)) (Variable of type Shape could refer to an object of type Square, Circle... Ability of a function to handle objects of many types)
-* [*Encapsulation*](https://en.wikipedia.org/wiki/Encapsulation_(computer_programming)) (Packing of data and functions into a single component)
+~~* [*Polymorphism*](https://en.wikipedia.org/wiki/Polymorphism_(computer_science)) (Variable of type Shape could refer to an object of type Square, Circle... Ability of a function to handle objects of many types)~~
+~~* [*Encapsulation*](https://en.wikipedia.org/wiki/Encapsulation_(computer_programming)) (Packing of data and functions into a single component)~~
 * [*Virtual function*](https://en.wikipedia.org/wiki/Virtual_function) (Overridable function)
 * [*Virtual method table*](https://en.wikipedia.org/wiki/Virtual_method_table)
 * [*Dynamic binding*](https://en.wikipedia.org/wiki/Late_binding) (Actual method implementation invoked is determined at run time based on the class of the object, not the type of the variable or expression)
-* How does [*garbage collector*](https://en.wikipedia.org/wiki/Garbage_collection_(computer_science)) work? (Mark and sweep: mark: traverse object graph starting from root objects, sweep: garbage collect unmarked objects. Optimizations: young/old generations, incremental mark and sweep)
-* [*Tail recursion*](https://en.wikipedia.org/wiki/Tail_call) (A tail call is a subroutine call performed as the final action of a procedure)
+~~* How does [*garbage collector*](https://en.wikipedia.org/wiki/Garbage_collection_(computer_science)) work? (Mark and sweep: mark: traverse object graph starting from root objects, sweep: garbage collect unmarked objects. Optimizations: young/old generations, incremental mark and sweep)~~
+~~* [*Tail recursion*](https://en.wikipedia.org/wiki/Tail_call) (A tail call is a subroutine call performed as the final action of a procedure)~~
 * [*Semantic versioning*](http://semver.org)
 
 #### [[⬆]](#toc) <a name='web'>WEB:</a>
@@ -165,8 +165,8 @@
 * Authentication using cookies, [*JWT*](https://en.wikipedia.org/wiki/JSON_Web_Token) (JSON Web Tokens).
 
 #### [[⬆]](#toc) <a name='sql'>SQL:</a>
-* *SQL join types* (inner join, left/right outer join, full outer join, cross join)
-![Join types](https://habrastorage.org/files/7ff/b2c/3a2/7ffb2c3a25b74dcf9eec013282b9cfb4.png "Join types"))
+~~* *SQL join types* (inner join, left/right outer join, full outer join, cross join)
+![Join types](https://habrastorage.org/files/7ff/b2c/3a2/7ffb2c3a25b74dcf9eec013282b9cfb4.png "Join types"))~~
 * *SQL normal forms* 
   1. The domain of each attribute contains only atomic values, and the value of each attribute contains only a single value from that domain
   1. No non-prime attribute in the table is functionally dependent on a proper subset of any candidate key
@@ -209,7 +209,7 @@
 * *Sticky sessions* vs storing sessions in Redis.
 
 #### [[⬆]](#toc) <a name='cloud-computing'>Cloud computing:</a>
-* What is [*cloud computing*](https://en.wikipedia.org/wiki/Cloud_computing)? (Cloud computing platform is a fully automated server platform that allows users to purchase, remotely create, dynamically scale, and administer system)
+~~* What is [*cloud computing*](https://en.wikipedia.org/wiki/Cloud_computing)? (Cloud computing platform is a fully automated server platform that allows users to purchase, remotely create, dynamically scale, and administer system)~~
 * [*Amazon web services*](https://en.wikipedia.org/wiki/Amazon_Web_Services)
 * [*Google Cloud Platform*](https://en.wikipedia.org/wiki/Google_Cloud_Platform)
 * [*Microsoft Azure*](https://en.wikipedia.org/wiki/Microsoft_Azure)
@@ -274,17 +274,17 @@
 #### [[⬆]](#toc) <a name='cpp'>C++:</a>
 
 #### [[⬆]](#toc) <a name='javascript'>Javascript:</a>
-* this keyword
-* How *prototypes* work?
-* inheritance
-* differences between == and === (http://dorey.github.io/JavaScript-Equality-Table/)
+~~* this keyword~~
+~~* How *prototypes* work?~~
+~~* inheritance~~
+~~* differences between == and === (http://dorey.github.io/JavaScript-Equality-Table/)~~
 * closures
-* recursion 
+~~* recursion ~~
 * What is *MVC*, *MVP*, *MVVM*?
 * What is *promise*?
-* What is event *bubbling* and *capturing*? (target.addEventListener(type, listener[, useCapture]))
+~~* What is event *bubbling* and *capturing*? (target.addEventListener(type, listener[, useCapture]))~~
 * What is *AMD*(Asynchronous Module Design) and *CommonJS*?
-* What is *jQuery*?
+~~* What is *jQuery*?~~
 
 #### [[⬆]](#toc) <a name='python'>Python:</a>
 
@@ -342,16 +342,16 @@ void qSort(int[] a, int fromInclusive, int toInclusive) {
 
 #### [[⬆]](#toc) <a name='git'>Git:</a>
 * *Git* workflow? (Master: production-ready state; Develop: latest delivered development changes for the next release; Feature Branches; Release Branches; Hotfixes) ![Git workflow](http://nvie.com/img/git-model@2x.png "Git workflow") http://nvie.com/posts/a-successful-git-branching-model/
-* What is a rebase?
+~~* What is a rebase?~~
 
 #### [[⬆]](#toc) <a name='devOps'>DevOps:</a>
 * What is *Blue-green Deployment*, *Canary release*, *A/B testing*? [link](https://www.javacodegeeks.com/2016/02/blue-green-deployment.html)
 * What is *Docker*?
 
 #### [[⬆]](#toc) <a name='qa'>QA:</a>
-* What is *unit test*? (A test that purely tests a single unit of functionality)
+~~* What is *unit test*? (A test that purely tests a single unit of functionality)~~
 * What is *component test*?
-* What is *integration test*? (Examine several parts of a system to make sure that when integrated, these parts behave as expected)
+~~* What is *integration test*? (Examine several parts of a system to make sure that when integrated, these parts behave as expected)~~
 * What is *user acceptance test*? BDD?
 * Unit tests advantages?
 * Types of tests: acceptance testing, functional testing, smoke testing, regression testing, unit testing, integration testing, stress testing, (Load, Performance, Sanity, Stability, Security, Feature, Progression, Installation, Business).
@@ -374,16 +374,16 @@ void qSort(int[] a, int fromInclusive, int toInclusive) {
 * What is Lean development?
 
 #### [[⬆]](#toc) <a name='algorithms'>Algorithms:</a>
-* What Ο(n), Ω(n), Θ(n)?
-* What is NP, NP-completeness, NP-hardness with examples?
+~~* What Ο(n), Ω(n), Θ(n)?~~
+~~* What is NP, NP-completeness, NP-hardness with examples?~~
 
 #### [[⬆]](#toc) <a name='other'>Other:</a>
 * How to find memory leak. (Memory snapshot diff).
 * Profiling: sampling and instrumentation.
-* Regular expressions. (Examples)
+~~* Regular expressions. (Examples)~~
 * What are your goals to work in our company? (3 categories: professional, financial, social)
 * What is *virtualization*?
-* What is total/partial order?
+~~* What is total/partial order?~~
 * How to work with legacy code? (http://programmers.stackexchange.com/a/122024)
 
 #### [[⬆]](#toc) <a name='machine-learning'>Machine learning:</a>
